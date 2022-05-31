@@ -201,6 +201,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div><span>Nama pelanggan :</span> <?php echo $delivery_data->customer->name; ?></div>
                         <div><span>Alamat pengiriman :</span> <?php echo $delivery_data->customer->address; ?></div>
                         <div><span>no.Hp :</span> <?php echo $delivery_data->customer->phone_number; ?></div>
+                        <div><span>metode pembayaran :</span><?php echo ($data->payment_method == 1) ? 'Transfer bank' : 'Bayar ditempat'; ?> </div>
                     </div>
                 </td>
             </tr>
