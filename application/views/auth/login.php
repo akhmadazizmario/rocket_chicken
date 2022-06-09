@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 order-md-2">
-                    <img src="http://localhost/rocket_chicken/login/images/bg1.jpg" alt="Image" width="600px">
+                    <img src="http://localhost/rocket_chicken/login/images/4.png" alt="Image" width="600px">
                 </div>
                 <div class="col-md-6 contents">
                     <div class="row justify-content-center">

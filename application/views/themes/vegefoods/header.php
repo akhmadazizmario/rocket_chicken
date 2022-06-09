@@ -45,6 +45,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body class="goto-here">
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
+			<img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/3.jfif" height="55px" width="50px">
 			<a class="navbar-brand text-dark" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu

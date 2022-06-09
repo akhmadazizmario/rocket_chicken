@@ -11,7 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <div class="col-md-12 ftco-animate text-center">
             <h1 class="mb-2 ">rocket chicken Tegal</h1>
             <h2 class="subheading mb-4">jalan.werkudoro tegal</h2>
-            <p><a href="#menu" class="btn btn-success "><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
+            <p><a href="#menu" class="btn btn-danger"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
           </div>
 
         </div>
@@ -94,37 +94,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
   </div>
 </section>
 
-<!--kategori makanan-->
-<section class="ftco-section bg-warning" id="products">
-  <div class="container">
-    <div class="row no-gutters ftco-services">
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/ayam1.jpg" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/ayam2.jpg" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/ayam3.jpg" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/ayam4.jpg" height="250px" width="250px">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<hr>
-<img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/bg_3.jpg" width="1530px" height="270px">
-<hr>
 <!--promo dibulan ini-->
 <section class="ftco-section" style="background-image: url(<?php echo get_theme_uri('images/bg_4.jpg'); ?>);">
   <div class="container">
