@@ -11,7 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <div class="col-md-12 ftco-animate text-center">
             <h1 class="mb-2 ">rocket chicken Tegal</h1>
             <h2 class="subheading mb-4">jalan.werkudoro tegal</h2>
-            <p><a href="#menu" class="btn btn-danger"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
+            <p><a href="#menu" class="btn btn-success"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
           </div>
 
         </div>
@@ -25,7 +25,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <div class="col-sm-12 ftco-animate">
             <h1 class="mb-2 text-dark">FOOD DELIVERY </h1>
             <h2 class="subheading mb-4 text-dark">pesan dirumah lebih cepat dan lebih efisien</h2>
-            <p><a href="#menu" class="btn btn-danger"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
+            <p><a href="#menu" class="btn btn-success"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <div class="container">
     <div class="row justify-content-center mb-3 pb-3">
       <div class="col-md-12 heading-section text-center ftco-animate">
-        <span class="subheading text-dark">MENU</span>
+        <span class="subheading text-dark">== MENU ==</span>
         <h2 class="mb-4">
           <?php echo get_store_name(); ?>
         </h2>
@@ -202,7 +202,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
       <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
         <span class="subheading text-white">Produk dengan Harga Terbaik</span>
-        <h2 class="mb-4 text-white">Deal of the day</h2>
+        <h2 class="mb-4 text-white">Rekomendasi hari ini</h2>
         <p><?php echo $best_deal->description; ?>
         </p>
         <h3><a href="#">
@@ -262,52 +262,3 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <!--maps-->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.7834830135616!2d109.14015023488722!3d-6.887648902446493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb9cafb3a7a45%3A0xeafd1121db857c56!2sRocket%20Chiken%20Werkudoro!5e0!3m2!1sid!2sid!4v1648960792800!5m2!1sid!2sid" width="1520" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </iframe>
-
-
-<!-- develloper-->
-<section class="ftco-section testimony-section bg-warning">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 heading-section ftco-animate text-center">
-        <span class="subheading text-dark">=== hallo ===</span>
-        <h2 class="mb-4">DEVELLOPER</h2>
-      </div>
-    </div>
-    <div class="row ftco-animate">
-      <div class="card-deck">
-        <div class="card">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/profil.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">aziz mario</h5>
-            <p class="card-text text-dark"></p>
-            <p class="card-text"><small class="text-muted">25 mei 2022</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/profil.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">RIDAMAYANTI</h5>
-            <p class="card-text text-dark"> </p>
-            <p class="card-text"><small class="text-muted">25 mei 2022</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/profil.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">FIDA MEILINDA</h5>
-            <p class="card-text text-dark"> </p>
-            <p class="card-text"><small class="text-muted">25 mei 2022</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/profil.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">itsna lutfia</h5>
-            <p class="card-text text-dark"></p>
-            <p class="card-text"><small class="text-muted">25 mei 2022</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

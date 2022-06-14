@@ -88,29 +88,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</div>
 	</nav>
-	<div class="py-1 bg-danger">
-		<div class="container">
-			<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
-				<div class="col-lg-12 d-block">
-					<marquee>
-						<div class="row d-flex">
-							<div class="col-md pr-4 d-flex topper align-items-center">
-								<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-								<span class="text">
-									<?php echo get_settings('store_phone_number'); ?>
-								</span>
-							</div>
-							<div class="col-md pr-4 d-flex topper align-items-center">
-								<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-								<span class="text"><?php echo get_settings('store_email'); ?></span>
-							</div>
-							<div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
-								<span class="text"><?php echo get_settings('store_tagline'); ?></span>
-							</div>
-					</marquee>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	</div>
 	<!-- END nav -->
