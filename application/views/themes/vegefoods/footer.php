@@ -22,11 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <p>
             <font color="white"><?php echo get_settings('store_description'); ?></font>
           </p>
-          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter" style="color:aqua"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook" style="color:aqua"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram" style="color:aqua"></span></a></li>
-          </ul>
+
         </div>
       </div>
       <div class="col-md">

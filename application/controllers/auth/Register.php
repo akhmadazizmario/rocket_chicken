@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Register extends CI_Controller {
+class Register extends CI_Controller
+{
     public function __construct()
     {
         parent::__construct();
@@ -26,12 +27,9 @@ class Register extends CI_Controller {
         $this->form_validation->set_rules('email', 'Email', 'required|min_length[10]');
         $this->form_validation->set_rules('address', 'Alamat', 'required');
 
-        if ($this->form_validation->run() === FALSE)
-        {
+        if ($this->form_validation->run() === FALSE) {
             $this->index();
-        }
-        else
-        {
+        } else {
             $username = $this->input->post('username');
             $password = $this->input->post('password');
             $name = $this->input->post('name');
@@ -48,7 +46,7 @@ class Register extends CI_Controller {
                 'role' => 'customer',
                 'register_date' => date('Y-m-d H:i:s')
             );
-            
+
             $user = $this->register->register_user($user_data);
 
             $customer_data = array(
@@ -73,7 +71,7 @@ class Register extends CI_Controller {
 
             $this->session->set_flashdata('store_flash', 'Pendaftaran akun berhasil!');
 
-            redirect('customer');
+            redirect('login');
         }
     }
 }

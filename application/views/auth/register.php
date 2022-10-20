@@ -11,12 +11,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://localhost/rocket_chicken/login/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/login/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="http://localhost/rocket_chicken/login/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/login/css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://localhost/rocket_chicken/login/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/login/css/bootstrap.min.css">
 
 
 
@@ -30,7 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-6 order-md-2">
-                    <img src="http://localhost/rocket_chicken/login/images/4.png" alt="Image" width="600px">
+                    <img src="<?= base_url() ?>/login/images/4.png" alt="Image" width="600px">
                 </div>
                 <div class="col-md-6 contents">
                     <div class="row justify-content-center">
@@ -105,15 +105,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
 
         </div>
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="<?= base_url() ?>/js/jquery-3.3.1.min.js"></script>
+        <script src="<?= base_url() ?>/js/popper.min.js"></script>
+        <script src="<?= base_url() ?>/js/bootstrap.min.js"></script>
+        <script src="<?= base_url() ?>js/main.js"></script>
     </div>
 </body>
 <footer>
     <center>
-        <p class="copyright-agileinfo"> copyright &copy; 2022 <br> Anda sudah punya akun klik -><a href="http://localhost/rocket_chicken/index.php/auth/login">LOGIN</a></p>
+        <p class="copyright-agileinfo"> copyright &copy; 2022 <br> Anda sudah punya akun klik -><a href="<?php echo site_url('auth/login'); ?>">LOGIN</a></p>
     </center>
 </footer>
 

@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
 	<title>rocket chicken</title>
 	<meta charset="utf-8">
-	<link href="http://localhost/pustaka-booking/assets1/img/favicon.png" rel="icon">
+	<link href="<?= base_url() ?>/assets/themes/argon/img/brand/favicon.png" rel="icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body class="goto-here">
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/3.jfif" height="55px" width="50px">
+
 			<a class="navbar-brand text-dark" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -61,7 +61,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<a class="dropdown-item" href="<?php echo site_url('customer/payments/confirm'); ?>">Konfirmasi Pembayaran</a>
 						</div>
 					</li>
-					<li class="nav-item"><a href="<?php echo site_url('pages/blog'); ?>" class="nav-link">blog</a></li>
+
 					<li class="nav-item"><a href="<?php echo site_url('pages/about'); ?>" class="nav-link">Tentang Kami</a></li>
 					<li class="nav-item"><a href="<?php echo site_url('pages/contact'); ?>" class="nav-link">Kontak</a></li>
 					<li class="nav-item dropdown">

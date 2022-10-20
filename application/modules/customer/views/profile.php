@@ -86,7 +86,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <?php echo form_error('address', '<div class="text-danger font-weight-bold">', '</div>'); ?>
                   </div>
 
-                  <div class="form-group row">
+                  <!-- <div class="form-group row">
                     <label for="inputFoto" class="col-sm-2 col-form-label">
                       <font color="aqua">Foto profil:</font>
                     </label>
@@ -94,7 +94,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                       <input type="file" class="form-control" id="inputFoto" name="file">
                     </div>
                     <?php echo form_error('profile_picture', '<div class="text-danger font-weight-bold">', '</div>'); ?>
-                  </div>
+                  </div> -->
                   <div class=" form-group row">
                     <div class="offset-sm-2 col-sm-10">
                       <button type="submit" class="btn btn-danger">Ganti Nama</button>

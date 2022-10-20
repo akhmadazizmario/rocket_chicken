@@ -19,7 +19,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="row justify-content-end">
       <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center">
         <div style="width: 100%">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/rc.jpg" width="450px" height="450px">
+          <img src="<?= base_url() ?>/assets/themes/vegefoods/images/rc.jpg" width="450px" height="450px">
         </div>
       </div>
       <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">

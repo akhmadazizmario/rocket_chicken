@@ -8661,7 +8661,11 @@ h1, h2, h3, h4, h5,
   border: 1px solid #f0f0f0; }
   @media (max-width: 991.98px) {
     .product {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+    .product .img-fluid{
+     width:auto;
+     height: auto;
+    } }
   .product .img-prod {
     position: relative;
     display: block;

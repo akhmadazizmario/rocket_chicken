@@ -3,17 +3,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <section id="home-section" class="hero">
   <div class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
+    <div class="slider-item" style="background-image: url(<?php echo base_url('assets/themes/vegefoods/images/bg_2.png'); ?>);">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
           <div class="col-md-12 ftco-animate text-center">
             <h1 class="mb-2 ">rocket chicken Tegal</h1>
-            <h2 class="subheading mb-4">jalan.werkudoro tegal</h2>
+            <h2 class="subheading mb-4">jalan.werkudoro, Kota tegal</h2>
             <p><a href="#menu" class="btn btn-success"><span class="icon icon-shopping-cart" style="color:white"> Pesan Sekarang</a></p>
           </div>
-
         </div>
       </div>
     </div>
@@ -34,105 +33,104 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 
-<!--bagan-->
-<section class="ftco-section bg-danger" id="products">
+<!--bagan card -->
+<section class="ftco-section bg-warning" id="products">
   <div class="container">
     <div class="row no-gutters ftco-services">
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-dark active d-flex justify-content-center align-items-center mb-2">
-            <span class="flaticon-shipped"></span>
-          </div>
-          <div class="media-body">
-            <h3 class="heading text-white ">Gratis Ongkir</h3>
-            <span class="text-white">
-              Belanja minimal Rp <?php echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
-            <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/chicken-leg.png" height="60px" width="60px">
-          </div>
-          <div class="media-body">
-            <h3 class="heading text-white">daging ayam kualitas terbaik</h3>
-            <span class="text-white">
-              kami memilih daging ayam segar pilihan terbaik
-            </span>
+      <!---card 1 --->
+      <div class="card col-md-3 py-3">
+        <div class=" text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-dark active d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-shipped"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading text-dark "><strong>Gratis Ongkir</strong></h3>
+              <span class="text-dark">
+                Belanja minimal Rp <?php echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?>
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
-            <span class="flaticon-award"></span>
-          </div>
-          <div class="media-body">
-            <h3 class="heading text-white">pelayanan Terbaik</h3>
-            <span class="text-white">
-              Kami melayani pelanggan dengan sepenuh hati
-            </span>
+      <!---card 2 --->
+      <div class="card col-md-3 py-3">
+        <div class="text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
+              <img src="<?= base_url() ?>/assets/themes/vegefoods/images/chicken-leg.png" height="60px" width="60px">
+            </div>
+            <div class="media-body">
+              <h3 class="heading text-dark"><strong> ayam kualitas terbaik</strong></h3>
+              <span class="text-dark">
+                kami memilih daging ayam<br> segar pilihan terbaik
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
-            <span class="flaticon-customer-service"></span>
+      <!---card 3 --->
+      <div class="card col-md-3 py-3">
+        <div class="text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-award"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading text-dark"><strong>pelayanan Terbaik</strong></h3>
+              <span class="text-dark">
+                Kami melayani pelanggan<br> dengan sepenuh hati
+              </span>
+            </div>
           </div>
-          <div class="media-body">
-            <h3 class="heading text-white">Bantuan</h3>
-            <span class="text-white">
-              kami siap Bantuan 1x24 jam Selalu Online
-            </span>
+        </div>
+      </div>
+      <!---card 4 --->
+      <div class="card col-md-3 py-3">
+        <div class=" text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-customer-service"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading text-dark"><strong>Bantuan</strong></h3>
+              <span class="text-dark">
+                kami siap Bantuan<br> Jam 09.00 Am - 22.00 Pm.
+              </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+  <style class="text/css">
+    .card {
+      width: 100%;
+      height: auto;
+      grid-column: span 8;
+      margin: 10px 0;
+      border-radius: 10px;
+      border-color: rgba(0, 0, 0, .1);
+      position: relative;
+      box-shadow: 0 10px 10px rgb(104, 100, 100);
 
-<!--promo dibulan ini-->
-<section class="ftco-section" style="background-image: url(<?php echo get_theme_uri('images/bg_4.jpg'); ?>);">
-  <div class="container">
-    <div class="row justify-content-center mb-3 pb-3">
-      <div class="col-md-5 heading-section text-center ftco-animate">
-        <span class="subheading bg-white text-dark">
-          <font color="black">== SEGERA HADIR DI BULAN INI ==</font>
-        </span>
-      </div>
-    </div>
-    <div class="row no-gutters ftco-services">
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/promo2.jpg" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/promo%203.jpg" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/ayam.webp" height="250px" width="250px">
-        </div>
-      </div>
-      <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services mb-md-0 mb-4">
-          <img src="http://localhost/rocket_chicken/assets/themes/vegefoods/images/promo.jpg" height="250px" width="250px">
-        </div>
-      </div>
+    }
 
-    </div>
-  </div>
+    .body-card {
+      padding: 10px 15px;
+    }
+
+    .body-card h1 {
+      margin: 0;
+
+    }
+  </style>
+
 </section>
 
 
 <!--Menu makanan-->
-<section class="ftco-section bg-warning" id="menu">
+<section class="ftco-section bg-light" id="menu">
   <div class="container">
     <div class="row justify-content-center mb-3 pb-3">
       <div class="col-md-12 heading-section text-center ftco-animate">
@@ -151,7 +149,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <?php if (count($products) > 0) : ?>
         <?php foreach ($products as $product) : ?>
           <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="product">
+            <div class="card product">
               <a href="<?php echo site_url('shop/product/' . $product->id . '/' . $product->sku . '/'); ?>" class="img-prod">
                 <img class="img-fluid" src="<?php echo base_url('assets/uploads/products/' . $product->picture_name); ?>" alt="<?php echo $product->name; ?>">
                 <?php if ($product->current_discount > 0) : ?>
@@ -191,34 +189,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </div>
   </div>
 
-</section>
-
-<!-- rekomendasi produk-->
-<section class="ftco-section img" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
-  <div class="container">
-    <div class="row justify-content-end">
-      <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url('http://localhost/rocket_chicken/assets/uploads/products/rocket01.jpg');">
-
-      </div>
-      <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
-        <span class="subheading text-white">Produk dengan Harga Terbaik</span>
-        <h2 class="mb-4 text-white">Rekomendasi hari ini</h2>
-        <p><?php echo $best_deal->description; ?>
-        </p>
-        <h3><a href="#">
-            <font color="white"><?php echo $best_deal->name; ?>
-          </a></h3>
-        <span class="price text-white">Rp <font color="white"><?php echo format_rupiah($best_deal->price); ?> <a href="#">
-              <font color="white">sekarang hanya Rp <font color="white"><?php echo format_rupiah($best_deal->price - $best_deal->current_discount); ?>
-            </a></span>
-        <div id="timer" class="d-flex mt-5">
-          <div class="time pl-3">
-            <button href="#" class="btn btn-success add-cart" data-sku="<?php echo $best_deal->sku; ?>" data-name="<?php echo $best_deal->name; ?>" data-price="<?php echo ($best_deal->current_discount > 0) ? ($best_deal->price - $best_deal->current_discount) : $best_deal->price; ?>" data-id="<?php echo $best_deal->id; ?>">BELI</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!--komentar pelanggan-->
